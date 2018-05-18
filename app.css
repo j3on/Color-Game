@@ -1,0 +1,60 @@
+body {
+   background: black;
+}
+
+.row {
+   margin: 0 auto;
+   width: 1140px;
+}
+
+
+.title-box {
+   text-align: center;
+   padding: 2em;
+   color: white;
+   background-color: rgba(17, 186, 186);
+   width: 100%;
+   margin: 0 auto;
+}
+
+h1 {
+   margin: 0;
+}
+
+/* BUTTONS */
+nav {
+   background-color: white;
+}
+
+.container-btn {
+   display: flex;
+}
+
+.container-btn > div {
+   flex: 1;
+}
+
+.color-btn {
+   display: flex;
+   justify-content: center;
+}
+.level-btn {
+   display: flex;
+   justify-content: center;
+}
+
+/* BOXES */
+.container-box {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1em;
+   justify-items: center;
+   margin-top: 50px;
+}
+
+.box {
+   background: red;
+   border: 1px solid white;
+   height: 200px;
+   width: 200px;
+}
